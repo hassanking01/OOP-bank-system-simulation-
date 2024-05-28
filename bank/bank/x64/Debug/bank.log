@@ -1,0 +1,43 @@
+﻿  bank.cpp
+C:\Users\hassa\Desktop\c++ courses\bank\clsString.h(39,25): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'bank.cpp')
+  
+C:\Users\hassa\Desktop\c++ courses\bank\clsString.h(44,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'bank.cpp')
+  
+C:\Users\hassa\Desktop\c++ courses\bank\clsString.h(56,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'bank.cpp')
+  
+C:\Users\hassa\Desktop\c++ courses\bank\clsString.h(193,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'bank.cpp')
+  
+C:\Users\hassa\Desktop\c++ courses\bank\clsString.h(324,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'bank.cpp')
+  
+C:\Users\hassa\Desktop\c++ courses\bank\clsString.h(372,22): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'bank.cpp')
+  
+C:\Users\hassa\Desktop\c++ courses\bank\clsShowMainMenu.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'bank.cpp')
+  
+C:\Users\hassa\Desktop\c++ courses\bank\clsAddClient.h(19,56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'bank.cpp')
+  
+C:\Users\hassa\Desktop\c++ courses\bank\clsDeposite.h(38,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'bank.cpp')
+  
+C:\Users\hassa\Desktop\c++ courses\bank\clsWithdraw.h(38,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'bank.cpp')
+  
+C:\Users\hassa\Desktop\c++ courses\bank\clsSendMoney.h(34,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'bank.cpp')
+  
+C:\Users\hassa\Desktop\c++ courses\bank\clsUpdateclientinfo.h(37,57): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'bank.cpp')
+  
+C:\Users\hassa\Desktop\c++ courses\bank\clsManageUsers.h(10,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'bank.cpp')
+  
+C:\Users\hassa\Desktop\c++ courses\bank\clsClient.h(325,1): warning C4715: 'clsClient::Save': not all control paths return a value
+C:\Users\hassa\Desktop\c++ courses\bank\clsUser.h(252,1): warning C4715: 'clsUser::save': not all control paths return a value
+  bank.vcxproj -> C:\Users\hassa\Desktop\c++ courses\bank\x64\Debug\bank.exe
