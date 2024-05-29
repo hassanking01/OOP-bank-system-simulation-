@@ -11,7 +11,9 @@ class clsTotaleBalance : protected clsScreen
 public:
 
 	static void TotaleBalance() {
-
+		if (!checkaccess(section::Totale_balance)) {
+			return;
+		}
 		
 		_DrowHeader("Total Balance screen");
 

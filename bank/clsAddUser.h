@@ -30,15 +30,48 @@ class clsAddUser : protected clsScreen
 		"Client info",
 		"Delete client",
 		"Update client info",
+		"Manage users",
 		"Transactions",
-		"Manage users"
+			};
+			string transactions[17] = {
+		 "", "","", "", "", "", "Deposite", "Send_Money", "Withdraw", "Totale_balance"
+			};
+			string managusers[15] = {
+		 "", "", "", "", "", "userslist", "addnewuser", "userInfo",
+		"Deleteuser", "updateuser", "loginregister"
 			};
 			for (int i = 0; i < 7; i++) {
+				section = 'n';
 				cout << "give User access to " << sections[i] << " : ";
 				cin >> section;
 				if (toupper(section) == 'Y') {
 					user.permisstion |= (1 << i);
+					
+
 				}
+				if (i == 6 && toupper(section) == 'Y') {
+					for (int j = i; j < 10; j++) {
+						cout << "give User access to " << transactions[j] << " : ";
+						cin >> section;
+						if (toupper(section) == 'Y') {
+							user.permisstion |= (1 << j);
+
+
+						}
+					}
+				}
+				if (i == 5 && toupper(section) == 'Y') {
+					for (int j = i; j < 11; j++) {
+						cout << "give User access to " << managusers[j] << " : ";
+						cin >> section;
+						if (toupper(section) == 'Y') {
+							user.permisstion |= (1 << j);
+
+
+						}
+					}
+				}
+				
 			}
 		}
 		return user;
@@ -46,9 +79,13 @@ class clsAddUser : protected clsScreen
 
 public:
 	static void AddUser() {
+		if (!checkaccess(section::addnewuser)) {
+			return;
+		}
+		
 		_DrowHeader("Add user screen");
 
-		string username = clsInputValidate::readString("\t\t\t\t\t\t enter the user name : ");
+		string username = clsInputValidate::readString("\t\t\t\t\t\t enter the username : ");
 		while (clsUser::isusetrexist(username)) {
 		
 			cout << "\t\t\t\t\t\tthe username : " << username << " is alredy exist enter another one\n";

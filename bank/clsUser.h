@@ -10,6 +10,7 @@
 class clsUser : public clsPerson
 {
 private:
+
 	enum enMode { UpdateMode = 1, Empty = 2, AddnewMode = 3 };
 	static clsUser _converuserlinetoobject(string line) {
 		vector <string> record = clsString::Split(line, "#//#");

@@ -21,6 +21,10 @@ class clsAddClient : protected clsScreen
 	}
 public:
 	static void Addclient() {
+		
+		if (!checkaccess(section::addClient)) {
+			return;
+		}
 		_DrowHeader("Add client");
 		string AccountNumber = clsInputValidate::readString("\t\t\t\t\t\tenter Acount number");
 		while (clsClient::isAccExist(AccountNumber))

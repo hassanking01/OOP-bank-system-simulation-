@@ -10,8 +10,12 @@ public:
 
 	static void Deposite() {
 
+		if (!checkaccess(section::Deposite)) {
+			return;
+		}
 
-		_DrowHeader("Deposite screen");
+		
+		_DrowHeader("Deposite screen" );
 
 		vector <clsClient> vtClients = clsClient::GetClientList();
 		cout << "\t\t\t\t\t\t" << left << setw(27) << "|  account number   ";

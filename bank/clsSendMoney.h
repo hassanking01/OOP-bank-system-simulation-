@@ -10,6 +10,10 @@ class clsSendMoney : protected clsScreen
 public:
 	static void SendMoney() {
 
+		if (!checkaccess(section::Send_Money)) {
+			return;
+		}
+		
 		_DrowHeader("send Money scren");
 
 		vector <clsClient> vtClients = clsClient::GetClientList();

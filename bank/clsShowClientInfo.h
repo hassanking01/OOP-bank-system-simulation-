@@ -8,7 +8,12 @@ class clsShowClientInfo : protected clsScreen
 
 public:
 	static void ShowClientInfo() {
-		_DrowHeader("Search Client Info");
+		
+
+		if (!checkaccess(section::clientInfo)) {
+			return;
+		}
+		_DrowHeader("Search Client Info" );
 		vector <clsClient> vtClients = clsClient::GetClientList();
 		string clientAcountNumber = clsInputValidate::readString("\t\t\t\t\t\tenter the Client Acount Number : ");
 		clsClient client = clsClient::find(clientAcountNumber);

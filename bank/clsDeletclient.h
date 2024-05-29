@@ -8,8 +8,11 @@ class clsDeletclient : protected clsScreen
 
 public:
 	static void Deleteclient() {
-
-		_DrowHeader("Delete client");
+		
+		if (!checkaccess(section::deleteClient)) {
+			return;
+		}
+		_DrowHeader("Delete client" );
 
 		string AccountNumber = clsInputValidate::readString("\t\t\t\t\t\tenter client account number you want to delelt : ");
 		while (!clsClient::isAccExist(AccountNumber))

@@ -43,8 +43,11 @@ class clsUpdateclientinfo : protected clsScreen
 
 public:
 	static void Updateclientinfo() {
-
-		_DrowHeader("Update client info screen");
+		
+			if (!checkaccess(section::updateClientInfo)) {
+				return;
+			}
+		_DrowHeader("Update client info screen" );
 
 		string AccountNumber = clsInputValidate::readString("enter the Acount Number You Want to Change : ");
 		while (!clsClient::isAccExist(AccountNumber))

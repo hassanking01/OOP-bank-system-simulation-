@@ -17,10 +17,13 @@ class clsShowClientsList : protected clsScreen
 	}
 public:
 	static void ShowClientsList() {
+		if (!checkaccess(section::clientsList)) {
+			return;
+		}
 		vector <clsClient> vtClients = clsClient::GetClientList();
 		string titel = "Clients list";
 		string subTitel = "(" + to_string(vtClients.size())+ ") Clients";
-		_DrowHeader(titel, subTitel);
+		_DrowHeader(titel, subTitel );
 		cout << "|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n";
 		cout << left << setw(27) << "|  Account Number   ";
 		cout << left << setw(17) << "|   FirstName   ";

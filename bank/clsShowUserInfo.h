@@ -9,6 +9,11 @@ class clsShowUserInfo : protected clsScreen
 
 public:
 	static void ShowUserInfo() {
+		if (!checkaccess(section::userInfo)) {
+			return;
+		}
+		
+		_DrowHeader("user info screen");
 		string username = clsInputValidate::readString("\t\t\t\t\t\t enter the user name you eant to search for : ");
 		cout << endl;
 		vector <clsUser> vtusers = clsUser::Getuserdata();

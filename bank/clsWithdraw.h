@@ -9,6 +9,13 @@ class clsWithdraw : protected clsScreen
 
 public:
 	static void Withdraw() {
+		
+
+		if (!checkaccess(section::Withdraw)) {
+			return;
+		}
+
+		
 		_DrowHeader("Withdraw screen");
 
 		vector <clsClient> vtClients = clsClient::GetClientList();

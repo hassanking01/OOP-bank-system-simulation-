@@ -34,104 +34,55 @@ private:
 	};
 	
 	
-	static void declindmasseg(int i ) {
-		cout << "\t\t\t\t\t\t|------------------------------------------------------------------|" << endl;
-		cout << "\t\t\t\t\t\t|                                                                  |" << endl;
-		cout << "\t\t\t\t\t\t|  " << left << setw(64) << "You Dont have Accsess to " + sections[i] + " contact your admin";
-		cout << "|" << endl;
-		cout << "\t\t\t\t\t\t|                                                                  |" << endl;
-		cout << "\t\t\t\t\t\t|------------------------------------------------------------------|" << endl;
-	}
+	
 	
 	// done
 	static void _ShowClientsList() {
 		/*cout << "Show Client list will be here soon...";*/
-		if(curentUser.have_access(1))
 		clsShowClientsList::ShowClientsList();
-		else
-		{
-			declindmasseg(1);
-			return;
 
-		}
 	}
 	
 	//done
 	static void _AddClient() {
 		/*cout << "Show Client Info will be here soon...";*/
-		if(curentUser.have_access(2))
 		clsAddClient::Addclient();
-		else
-		{
-			declindmasseg(1);
-			return;
-
-		}
+	
 	}
 
 	//done
 	static void _ShowClientInfo() {
 		/*cout << "Show Client Info will be here soon...";*/
-		if(curentUser.have_access(3))
 		clsShowClientInfo::ShowClientInfo();
-		else
-		{
-			declindmasseg(1);
-			return;
 
-		}
 	}
 
 	//done
 	static void _Deletclient() {
 	 /*cout << "Delet client will be here soon...";*/
-		if(curentUser.have_access(4))
 		clsDeletclient::Deleteclient();
-		else
-		{
-			declindmasseg(1);
-			return;
 
-		}
 	}
 	
 	//done
 	static void _UpdateClientInfo() {
 		/*cout << "Update Client Info will be here soon...";*/
-		if(curentUser.have_access(5))
 		clsUpdateclientinfo::Updateclientinfo();
-		else
-		{
-			declindmasseg(1);
-			return;
 
-		}
 	}
 
 	//done
 	static void _TransactionsMenu() {
 		/*cout << "Transactions Menu will be here soon...";*/
-		if(curentUser.have_access(6))
 		clsTransactionsMenu::TransactionsMenu();
-		else
-		{
-			declindmasseg(1);
-			return;
 
-		}
 	}
 
 	//done
 	static void _ManageUsersMenu() {
 		//cout << "Manage Users Menu will be here soon...";
-		if(curentUser.have_access(7))
 		clsManageUsers::ManageUsers();
-		else
-		{
-			declindmasseg(1);
-			return;
 
-		}
 	}
 
 	//done

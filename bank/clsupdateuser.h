@@ -9,6 +9,7 @@ class clsupdateuser : protected clsScreen
 	enum enupdate {firstname=1,lastname =2 , email = 3, phonenumber = 4 , premisstion = 5 , password = 6  };
 
 	static void _readinput(clsUser & user) {
+		
 		cout << "\t\t\t\t\t\t|------------------------------------------------------------------------------|" << endl;
 		cout << "\t\t\t\t\t\t|      username        : " << left << setw(50) << user.username << "    |" << endl;
 		cout << "\t\t\t\t\t\t|------------------------------------------------------------------------------|" << endl;
@@ -24,6 +25,9 @@ class clsupdateuser : protected clsScreen
 		cout << "\t\t\t\t\t\t|------------------------------------------------------------------------------|" << endl;
 		cout << "\t\t\t\t\t\t|[6]password           : " << left << setw(50) << user.password << "    |" << endl;
 		cout << "\t\t\t\t\t\t|------------------------------------------------------------------------------|" << endl;
+		
+		
+		
 		char areusure = clsInputValidate::readChar("\t\t\t\t\t\t are you sure you want to update : ");
 		if (toupper(areusure) != 'Y')
 			return;
@@ -49,7 +53,15 @@ class clsupdateuser : protected clsScreen
 
 			break;
 		case clsupdateuser::premisstion:
-			break;
+			if (user.username == curentUser.username && curentUser.permisstion != -1) {
+				cout << "\t\t\t\t\t\t|------------------------------------------------------------------|" << endl;
+				cout << "\t\t\t\t\t\t|                                                                  |" << endl;
+				cout << "\t\t\t\t\t\t|  " << left << setw(64) << "You Dont have Accsess to change permisstions  contact your admin";
+				cout << "|" << endl;
+				cout << "\t\t\t\t\t\t|                                                                  |" << endl;
+				cout << "\t\t\t\t\t\t|------------------------------------------------------------------|" << endl;
+				return;
+			}
 			fullaccess = clsInputValidate::readChar("\t\t\t\t\t\tdoes the user have full access of the system Y/N : ");
 			if (toupper(fullaccess) == 'Y') {
 				user.permisstion = -1;
@@ -102,18 +114,23 @@ class clsupdateuser : protected clsScreen
 	}
 public:
 	static void Updateuserinfo() {
+		if (!checkaccess(section::updateuser)) {
+			return;
+		}
+		
+		_DrowHeader("Update user info screen" );
 
-		_DrowHeader("Update user info screen");
-
-		string AccountNumber = clsInputValidate::readString("\t\t\t\t\t\tenter client account number you want to delelt : ");
-		while (!clsClient::isAccExist(AccountNumber))
+		string AccountNumber = clsInputValidate::readString("\t\t\t\t\t\tenter username account you want to update : ");
+		while (!clsUser::isusetrexist(AccountNumber))
 		{
-			cout << "\t\t\t\t\t\tAccout doesnt Exict try again \n";
-			string AccountNumber = clsInputValidate::readString("\t\t\t\t\t\tenter Acount number");
+			cout << "\t\t\t\t\t\ username doesnt Exict try again \n";
+			 AccountNumber = clsInputValidate::readString("\t\t\t\t\t\tenter username : ");
 
 		}
-		clsClient client = clsClient::find(AccountNumber);
+		clsUser user = clsUser::find(AccountNumber);
 		cout << endl;
+
+		_readinput( user);
 	}
 };
 

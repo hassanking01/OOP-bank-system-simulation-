@@ -10,7 +10,11 @@ class clsDeleteuser : protected clsScreen
 	
 public:
 	static void Deleteuser() {
-		_DrowHeader("delet user screen");
+		if (!checkaccess(section::Deleteuser)) {
+			return;
+		}
+		
+		_DrowHeader("delet user screen" );
 		string username = clsInputValidate::readString("\t\t\t\t\t\t enter the user name you eant to delete for : ");
 		cout << endl;
 		vector <clsUser> vtusers = clsUser::Getuserdata();

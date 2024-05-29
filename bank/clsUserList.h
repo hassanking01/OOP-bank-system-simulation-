@@ -19,6 +19,10 @@ class clsUserList : protected clsScreen
 public:
 
 	static void UserList() {
+		if (!checkaccess(section::userslist)) {
+			return;
+		}
+		
 		vector <clsUser> vtusers = clsUser::Getuserdata();
 		string users = "(" + to_string(vtusers.size()) + ") users";
 		_DrowHeader("User List Screen" , users);

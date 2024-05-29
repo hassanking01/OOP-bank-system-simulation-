@@ -1,6 +1,6 @@
 #pragma once
 #include "clsInputValidate.h"
-
+#include "clsLoginRegisterScreen.h"
 #include "clsClient.h"
 #include "clsScreen.h"
 #include "clsUserList.h"
@@ -11,7 +11,7 @@
 class clsManageUsers : protected clsScreen
 {
 	enum enSections {
-		userslist = 1, addnewuser =2 ,userInfo = 3 , Deleteuser=4 , updateuser= 5 , mainmenu = 6
+		userslist = 1, addnewuser =2 ,userInfo = 3 , Deleteuser=4 , updateuser= 5 , loginregister = 6 , mainmenu = 7
 	};
 	
 	//done
@@ -43,6 +43,12 @@ class clsManageUsers : protected clsScreen
 		//cout << "Update user will here soon";
 		clsupdateuser::Updateuserinfo();
 	}
+
+
+	static void _LoginRegister() {
+		//cout << "\t\t\t\t\t\t Login Register will be here soon.";
+		clsLoginRegisterScreen::showLoginrefister();
+	}
 	
 	static void _GoBackToManageUserMenu() {
 		cout << "\t\t\t\t\t\t press any key to go back to Manage user.";
@@ -52,7 +58,7 @@ class clsManageUsers : protected clsScreen
 	
 	static void _ReaduserInput() {
 		
-		enSections section = (enSections)clsInputValidate::readIntBetween(1, 6, "\t\t\t\t\t\t Enter a number from the list : ", "Invalid Number! pleas try again");
+		enSections section = (enSections)clsInputValidate::readIntBetween(1, 7, "\t\t\t\t\t\t Enter a number from the list : ", "Invalid Number! pleas try again");
 		system("cls");
 		switch (section)
 		{
@@ -74,6 +80,11 @@ class clsManageUsers : protected clsScreen
 			break;
 		case clsManageUsers::updateuser:
 			_Updateuser();
+			_GoBackToManageUserMenu();
+			break;
+		
+		case clsManageUsers::loginregister:
+			_LoginRegister();
 			_GoBackToManageUserMenu();
 			break;
 		case clsManageUsers::mainmenu:
@@ -98,7 +109,9 @@ public:
 		cout << "\t\t\t\t\t\t|------------------------------------------------|" << endl;
 		cout << "\t\t\t\t\t\t|                 Update User    [5]             |" << endl;
 		cout << "\t\t\t\t\t\t|------------------------------------------------|" << endl;
-		cout << "\t\t\t\t\t\t|                  Main Menu     [6]             |" << endl;
+		cout << "\t\t\t\t\t\t|                Login Register  [6]             |" << endl;
+		cout << "\t\t\t\t\t\t|------------------------------------------------|" << endl;
+		cout << "\t\t\t\t\t\t|                  Main Menu     [7]             |" << endl;
 		cout << "\t\t\t\t\t\t|------------------------------------------------|" << endl;
 		_ReaduserInput();
 	}
