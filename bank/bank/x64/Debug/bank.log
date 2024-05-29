@@ -32,7 +32,7 @@ C:\Users\hassa\Desktop\OOP bank system simulation\bank\clsDeposite.h(42,16): war
 C:\Users\hassa\Desktop\OOP bank system simulation\bank\clsWithdraw.h(45,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'bank.cpp')
   
-C:\Users\hassa\Desktop\OOP bank system simulation\bank\clsSendMoney.h(38,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\hassa\Desktop\OOP bank system simulation\bank\clsSendMoney.h(36,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'bank.cpp')
   
 C:\Users\hassa\Desktop\OOP bank system simulation\bank\clsUpdateclientinfo.h(37,57): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
@@ -41,9 +41,9 @@ C:\Users\hassa\Desktop\OOP bank system simulation\bank\clsUpdateclientinfo.h(37,
 C:\Users\hassa\Desktop\OOP bank system simulation\bank\clsManageUsers.h(10,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   (compiling source file 'bank.cpp')
   
-C:\Users\hassa\Desktop\OOP bank system simulation\bank\clsupdateuser.h(126,12): warning C4129: ' ': unrecognized character escape sequence
+C:\Users\hassa\Desktop\OOP bank system simulation\bank\clsupdateuser.h(162,12): warning C4129: ' ': unrecognized character escape sequence
   (compiling source file 'bank.cpp')
   
 C:\Users\hassa\Desktop\OOP bank system simulation\bank\clsClient.h(325,1): warning C4715: 'clsClient::Save': not all control paths return a value
-C:\Users\hassa\Desktop\OOP bank system simulation\bank\clsUser.h(253,1): warning C4715: 'clsUser::save': not all control paths return a value
+C:\Users\hassa\Desktop\OOP bank system simulation\bank\clsUser.h(311,1): warning C4715: 'clsUser::save': not all control paths return a value
   bank.vcxproj -> C:\Users\hassa\Desktop\OOP bank system simulation\bank\x64\Debug\bank.exe

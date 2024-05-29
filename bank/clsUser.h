@@ -6,11 +6,31 @@
 #include "fstream"
 #include "clsDate.h"
 #include "clsPerson.h"
-
+#include "glogal.h"
 class clsUser : public clsPerson
 {
 private:
+	struct transfirLog
+	{
+		string _date = clsDate::DateToString(clsDate());
+		string _senderAmountBefor;
+		string _senderAmountAfter;
+		string _reciverAmountBefor;
+		string _reciverAmountAfter;
+		string _operator;
+		transfirLog( string sendB, string sendA, string recivB, string recivA, string OP) {
+			
+			_senderAmountBefor = sendB;
+			_senderAmountAfter = sendA;
+			_reciverAmountBefor = recivB;
+			_reciverAmountAfter = recivA;
+			_operator = OP;
+		}
+		transfirLog empty() {
+			return transfirLog("", "", "", "", "");
+		}
 
+	};
 	enum enMode { UpdateMode = 1, Empty = 2, AddnewMode = 3 };
 	static clsUser _converuserlinetoobject(string line) {
 		vector <string> record = clsString::Split(line, "#//#");
@@ -22,7 +42,7 @@ private:
 	string _Password;
 	enMode _Mode;
 	bool Markfordeletion = false;
-
+	transfirLog _transfirLog = _transfirLog.empty();
 	static clsUser _GetEmptyObject() {
 		return clsUser(enMode::Empty, 0, "", "", "", "", "", "" );
 	}
@@ -95,11 +115,39 @@ private:
 		 line += password + delim;
 		 line += to_string(permisstion);
 		 return line;
-	 }
+	  
+	  }
+	  
+	  
+	  static string _ConverttransfirLog(transfirLog log, string delim = "#//#") {
+		  string line;
+		  line += log._date + delim;
+		  line += log._senderAmountBefor + delim;
+		  line += log._reciverAmountBefor + delim;
+		  line += log._operator + delim;
+		  line += log._senderAmountAfter + delim;
+		  line += log._reciverAmountAfter;
+		  return line;
+		  
+	  }
+	  static void _addtransfirLogtoFile( transfirLog log) {
+		  fstream transirfile;
+		  transirfile.open("transfirLog.txt", ios::out | ios::app);
+		  string line;
+		  if (transirfile.is_open()) {
+			  line = _ConverttransfirLog(log);
+			  transirfile << line << endl;
+			  transirfile.close();
+		  }
+	  }
 	
 protected:
+   
+	
+
 
 public:
+
 	clsUser(enMode mode, int premisstion, string username, string password, string firsname, string lastname, string email, string phonenumber)
 		:clsPerson(firsname, lastname, email, phonenumber) {
 		_Mode = mode;
@@ -224,7 +272,17 @@ public:
 		return false;
 	}
 	enum ensave {svSuccessfully , svfieldEmpty , svfieldAlredyExsit};
-
+	void transfir(clsClient&send, clsClient&reciver, float amount) {
+		_transfirLog._reciverAmountBefor = to_string(reciver.Account_Balance);
+		_transfirLog._senderAmountBefor =  to_string(send.Account_Balance);
+		_transfirLog._operator = this->username;
+		send.Account_Balance -= amount;
+		reciver.Account_Balance += amount;
+		_transfirLog._reciverAmountAfter = to_string(reciver.Account_Balance);
+		_transfirLog._senderAmountAfter = to_string(send.Account_Balance);
+		_addtransfirLogtoFile(_transfirLog);
+		_transfirLog.empty();
+	}
 	ensave save() {
 		switch (_Mode)
 		{
@@ -252,7 +310,10 @@ public:
 		}
 	}
 	bool have_access(int section) {
-		return (_Premisstion & (1 << (section - 1))) || _Premisstion == -1;
+		if (_Premisstion == -1)
+			return true;
+
+		return (_Premisstion & (1 << (section - 1)));
 	}
 	static vector <clsUser> Getuserdata() {
 		return _Loadrecodesfromfile();

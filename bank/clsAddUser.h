@@ -24,7 +24,8 @@ class clsAddUser : protected clsScreen
 		}
 		else
 		{
-			string sections[7] = {
+			string sections[8] = {
+				"",
 		"View clients list",
 		"Add client",
 		"Client info",
@@ -33,16 +34,16 @@ class clsAddUser : protected clsScreen
 		"Manage users",
 		"Transactions",
 			};
-			string transactions[17] = {
-		 "", "","", "", "", "", "Deposite", "Send_Money", "Withdraw", "Totale_balance"
+			string transactions[19] = {
+		"", "", "","", "", "","", "", "", "", "","", "", "", "", "Deposite", "Withdraw", "Totale_balance" , "Send_Money"
 			};
-			string managusers[15] = {
-		 "", "", "", "", "", "userslist", "addnewuser", "userInfo",
+			string managusers[17] = {
+		 "", "",  "", "", "", "", "", "", "",  "userslist", "addnewuser", "userInfo",
 		"Deleteuser", "updateuser", "loginregister"
 			};
 			for (int i = 0; i < 7; i++) {
 				section = 'n';
-				cout << "give User access to " << sections[i] << " : ";
+				cout << "give User access to " << sections[i+1] << " : ";
 				cin >> section;
 				if (toupper(section) == 'Y') {
 					user.permisstion |= (1 << i);
@@ -50,8 +51,8 @@ class clsAddUser : protected clsScreen
 
 				}
 				if (i == 6 && toupper(section) == 'Y') {
-					for (int j = i; j < 10; j++) {
-						cout << "give User access to " << transactions[j] << " : ";
+					for (int j = 13; j < 17; j++) {
+						cout << "give User access to " << transactions[j+2] << " : ";
 						cin >> section;
 						if (toupper(section) == 'Y') {
 							user.permisstion |= (1 << j);
@@ -61,8 +62,8 @@ class clsAddUser : protected clsScreen
 					}
 				}
 				if (i == 5 && toupper(section) == 'Y') {
-					for (int j = i; j < 11; j++) {
-						cout << "give User access to " << managusers[j] << " : ";
+					for (int j = 7; j < 13; j++) {
+						cout << "give User access to " << managusers[j+2] << " : ";
 						cin >> section;
 						if (toupper(section) == 'Y') {
 							user.permisstion |= (1 << j);

@@ -29,11 +29,11 @@ protected:
 		Withdraw = 15,
 		Totale_balance = 16,
 		Send_Money = 17,
-		mainmenu = 1000
+		
 		
 	};
 	static bool checkaccess(section s) {
-		if (curentUser.have_access(int(s)))
+		if (!curentUser.have_access(int(s)))
 		{
 			cout << "\t\t\t\t\t\t|------------------------------------------------------------------|" << endl;
 			cout << "\t\t\t\t\t\t|                                                                  |" << endl;

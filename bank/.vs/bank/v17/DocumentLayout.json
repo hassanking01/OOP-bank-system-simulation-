@@ -3,40 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\bank.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:bank.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsSendMoney.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsSendMoney.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsAddUser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsAddUser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsUser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsUser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsUserList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsUserList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsClient.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsClient.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsupdateuser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsupdateuser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsAddUser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsAddUser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsShowMainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsShowMainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsShowClientInfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsShowClientInfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsTransactionsMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsTransactionsMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsUserList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsUserList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsManageUsers.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsManageUsers.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsString.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsString.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsAddClient.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsAddClient.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsUser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsUser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsDeleteuser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsDeleteuser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsTransactionsMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsTransactionsMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsShowMainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsShowMainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\bank.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:bank.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsLoginRegisterScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -59,16 +83,8 @@
       "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsUpdateclientinfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsDeleteuser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsDeleteuser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsShowClientsList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsShowClientsList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsShowClientInfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsShowClientInfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsShowUserInfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -95,24 +111,12 @@
       "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsTotaleBalance.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsString.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsString.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsSendMoney.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsSendMoney.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsLogin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsLogin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsDeposite.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsDeposite.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsClient.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B5029574-54BC-46EF-A78C-F13C7DCACBC5}|bank.vcxproj|solutionrelative:clsClient.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hassa\\Desktop\\c\u002B\u002B courses\\OOPliberys\\clsPerson.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -124,8 +128,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 186,
-          "SelectedChildIndex": 12,
+          "DockedHeight": 187,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -133,7 +137,169 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "clsShowClientInfo.h",
+              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsShowClientInfo.h",
+              "RelativeDocumentMoniker": "clsShowClientInfo.h",
+              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsShowClientInfo.h",
+              "RelativeToolTip": "clsShowClientInfo.h",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-28T19:31:06.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "clsTransactionsMenu.h",
+              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsTransactionsMenu.h",
+              "RelativeDocumentMoniker": "clsTransactionsMenu.h",
+              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsTransactionsMenu.h",
+              "RelativeToolTip": "clsTransactionsMenu.h",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAcwC4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-28T19:31:14.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "clsDeleteuser.h",
+              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsDeleteuser.h",
+              "RelativeDocumentMoniker": "clsDeleteuser.h",
+              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsDeleteuser.h",
+              "RelativeToolTip": "clsDeleteuser.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-28T19:33:01.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "clsupdateuser.h",
+              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsupdateuser.h",
+              "RelativeDocumentMoniker": "clsupdateuser.h",
+              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsupdateuser.h",
+              "RelativeToolTip": "clsupdateuser.h",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAwwGwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-28T19:31:17.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "clsUserList.h",
+              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsUserList.h",
+              "RelativeDocumentMoniker": "clsUserList.h",
+              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsUserList.h",
+              "RelativeToolTip": "clsUserList.h",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABUAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-28T19:35:36.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "clsAddUser.h",
+              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsAddUser.h",
+              "RelativeDocumentMoniker": "clsAddUser.h",
+              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsAddUser.h",
+              "RelativeToolTip": "clsAddUser.h",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAAAEwAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-28T19:32:28.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "bank.cpp",
+              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\bank.cpp",
+              "RelativeDocumentMoniker": "bank.cpp",
+              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\bank.cpp",
+              "RelativeToolTip": "bank.cpp",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-28T19:13:38.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsUser.h",
+              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsUser.h",
+              "RelativeDocumentMoniker": "clsUser.h",
+              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsUser.h",
+              "RelativeToolTip": "clsUser.h",
+              "ViewState": "AQIAAEgBAAAAAAAAAAAwwBwBAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-28T19:23:05.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "clsString.h",
+              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsString.h",
+              "RelativeDocumentMoniker": "clsString.h",
+              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsString.h",
+              "RelativeToolTip": "clsString.h",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-28T19:31:12.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clsSendMoney.h",
+              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsSendMoney.h",
+              "RelativeDocumentMoniker": "clsSendMoney.h",
+              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsSendMoney.h",
+              "RelativeToolTip": "clsSendMoney.h",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwCQAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-28T19:31:07.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "clsScreen.h",
+              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsScreen.h",
+              "RelativeDocumentMoniker": "clsScreen.h",
+              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsScreen.h",
+              "RelativeToolTip": "clsScreen.h",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAmwCsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-28T19:31:05.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "clsClient.h",
+              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsClient.h",
+              "RelativeDocumentMoniker": "clsClient.h",
+              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsClient.h",
+              "RelativeToolTip": "clsClient.h",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAhwJQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-28T19:27:21.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "clsManageUsers.h",
+              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsManageUsers.h",
+              "RelativeDocumentMoniker": "clsManageUsers.h",
+              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsManageUsers.h",
+              "RelativeToolTip": "clsManageUsers.h",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-29T18:45:37.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "clsAddClient.h",
               "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsAddClient.h",
               "RelativeDocumentMoniker": "clsAddClient.h",
@@ -141,25 +307,35 @@
               "RelativeToolTip": "clsAddClient.h",
               "ViewState": "AQIAABUAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-28T19:32:25.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T19:32:25.318Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "clsScreen.h",
-              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsScreen.h",
-              "RelativeDocumentMoniker": "clsScreen.h",
-              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsScreen.h",
-              "RelativeToolTip": "clsScreen.h",
-              "ViewState": "AQIAACEAAAAAAAAAAAAQwCUAAAAAAAAA",
+              "DocumentIndex": 16,
+              "Title": "clsDeletclient.h",
+              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsDeletclient.h",
+              "RelativeDocumentMoniker": "clsDeletclient.h",
+              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsDeletclient.h",
+              "RelativeToolTip": "clsDeletclient.h",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAwA0AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-28T19:31:05.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T19:32:57.746Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 18,
+              "Title": "glogal.h",
+              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\glogal.h",
+              "RelativeDocumentMoniker": "glogal.h",
+              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\glogal.h",
+              "RelativeToolTip": "glogal.h",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAMwA4AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-28T19:31:37.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "clsShowMainMenu.h",
               "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsShowMainMenu.h",
               "RelativeDocumentMoniker": "clsShowMainMenu.h",
@@ -172,124 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "glogal.h",
-              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\glogal.h",
-              "RelativeDocumentMoniker": "glogal.h",
-              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\glogal.h",
-              "RelativeToolTip": "glogal.h",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAMwA4AAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-28T19:31:37.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "clsShowClientInfo.h",
-              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsShowClientInfo.h",
-              "RelativeDocumentMoniker": "clsShowClientInfo.h",
-              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsShowClientInfo.h",
-              "RelativeToolTip": "clsShowClientInfo.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-28T19:31:06.561Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "clsDeletclient.h",
-              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsDeletclient.h",
-              "RelativeDocumentMoniker": "clsDeletclient.h",
-              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsDeletclient.h",
-              "RelativeToolTip": "clsDeletclient.h",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAwA0AAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-28T19:32:57.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "clsTransactionsMenu.h",
-              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsTransactionsMenu.h",
-              "RelativeDocumentMoniker": "clsTransactionsMenu.h",
-              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsTransactionsMenu.h",
-              "RelativeToolTip": "clsTransactionsMenu.h",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAcwC4AAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-28T19:31:14.466Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "clsDeleteuser.h",
-              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsDeleteuser.h",
-              "RelativeDocumentMoniker": "clsDeleteuser.h",
-              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsDeleteuser.h",
-              "RelativeToolTip": "clsDeleteuser.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-28T19:33:01.124Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "clsupdateuser.h",
-              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsupdateuser.h",
-              "RelativeDocumentMoniker": "clsupdateuser.h",
-              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsupdateuser.h",
-              "RelativeToolTip": "clsupdateuser.h",
-              "ViewState": "AQIAADgAAAAAAAAAAAAAAD4AAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-28T19:31:17.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "clsUserList.h",
-              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsUserList.h",
-              "RelativeDocumentMoniker": "clsUserList.h",
-              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsUserList.h",
-              "RelativeToolTip": "clsUserList.h",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAAkAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-28T19:35:36.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "clsAddUser.h",
-              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsAddUser.h",
-              "RelativeDocumentMoniker": "clsAddUser.h",
-              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsAddUser.h",
-              "RelativeToolTip": "clsAddUser.h",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAAAFcAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-28T19:32:28.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "bank.cpp",
-              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\bank.cpp",
-              "RelativeDocumentMoniker": "bank.cpp",
-              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\bank.cpp",
-              "RelativeToolTip": "bank.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-28T19:13:38.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "clsWithdraw.h",
               "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsWithdraw.h",
               "RelativeDocumentMoniker": "clsWithdraw.h",
@@ -297,25 +356,11 @@
               "RelativeToolTip": "clsWithdraw.h",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-28T19:35:41.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T19:35:41.859Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "clsUser.h",
-              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsUser.h",
-              "RelativeDocumentMoniker": "clsUser.h",
-              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsUser.h",
-              "RelativeToolTip": "clsUser.h",
-              "ViewState": "AQIAAPAAAAAAAAAAAAAhwP8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-28T19:23:05.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "clsLoginRegisterScreen.h",
               "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsLoginRegisterScreen.h",
               "RelativeDocumentMoniker": "clsLoginRegisterScreen.h",
@@ -323,12 +368,11 @@
               "RelativeToolTip": "clsLoginRegisterScreen.h",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAABsAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-28T21:36:37.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T21:36:37.916Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "clsUpdateclientinfo.h",
               "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsUpdateclientinfo.h",
               "RelativeDocumentMoniker": "clsUpdateclientinfo.h",
@@ -336,12 +380,11 @@
               "RelativeToolTip": "clsUpdateclientinfo.h",
               "ViewState": "AQIAAB8AAAAAAAAAAAAAACwAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-28T19:31:15.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T19:31:15.827Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "clsShowClientsList.h",
               "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsShowClientsList.h",
               "RelativeDocumentMoniker": "clsShowClientsList.h",
@@ -349,12 +392,11 @@
               "RelativeToolTip": "clsShowClientsList.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-28T19:26:31.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T19:26:31.036Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "clsShowUserInfo.h",
               "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsShowUserInfo.h",
               "RelativeDocumentMoniker": "clsShowUserInfo.h",
@@ -362,12 +404,11 @@
               "RelativeToolTip": "clsShowUserInfo.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-28T19:31:11.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T19:31:11.239Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "clsLoginRegister.h",
               "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsLoginRegister.h",
               "RelativeDocumentMoniker": "clsLoginRegister.h",
@@ -375,12 +416,11 @@
               "RelativeToolTip": "clsLoginRegister.h",
               "ViewState": "AQIAAC8AAAAAAAAAAAAswEMAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-28T20:58:24.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T20:58:24.958Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "clsUtil.h",
               "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsUtil.h",
               "RelativeDocumentMoniker": "clsUtil.h",
@@ -388,12 +428,11 @@
               "RelativeToolTip": "clsUtil.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-28T19:31:25.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T19:31:25.026Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "clsTotaleBalance.h",
               "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsTotaleBalance.h",
               "RelativeDocumentMoniker": "clsTotaleBalance.h",
@@ -401,25 +440,11 @@
               "RelativeToolTip": "clsTotaleBalance.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-28T19:31:13.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T19:31:13.249Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "clsString.h",
-              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsString.h",
-              "RelativeDocumentMoniker": "clsString.h",
-              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsString.h",
-              "RelativeToolTip": "clsString.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-28T19:31:12.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
               "Title": "clsLogout.h",
               "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsLogout.h",
               "RelativeDocumentMoniker": "clsLogout.h",
@@ -427,12 +452,11 @@
               "RelativeToolTip": "clsLogout.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-28T19:33:57.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T19:33:57.414Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "clsDate.h",
               "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsDate.h",
               "RelativeDocumentMoniker": "clsDate.h",
@@ -440,25 +464,11 @@
               "RelativeToolTip": "clsDate.h",
               "ViewState": "AQIAAJ4AAAAAAAAAAAAswKMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-28T19:39:00.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T19:39:00.736Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "clsSendMoney.h",
-              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsSendMoney.h",
-              "RelativeDocumentMoniker": "clsSendMoney.h",
-              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsSendMoney.h",
-              "RelativeToolTip": "clsSendMoney.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-28T19:31:07.473Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "clsDeposite.h",
               "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsDeposite.h",
               "RelativeDocumentMoniker": "clsDeposite.h",
@@ -466,12 +476,11 @@
               "RelativeToolTip": "clsDeposite.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-28T19:33:26.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T19:33:26.638Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "clsLogin.h",
               "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsLogin.h",
               "RelativeDocumentMoniker": "clsLogin.h",
@@ -479,25 +488,11 @@
               "RelativeToolTip": "clsLogin.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-28T19:31:00.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T19:31:00.748Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "clsClient.h",
-              "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsClient.h",
-              "RelativeDocumentMoniker": "clsClient.h",
-              "ToolTip": "C:\\Users\\hassa\\Desktop\\OOP bank system simulation\\bank\\clsClient.h",
-              "RelativeToolTip": "clsClient.h",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAAYAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-28T19:27:21.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "clsPerson.h",
               "DocumentMoniker": "C:\\Users\\hassa\\Desktop\\c\u002B\u002B courses\\OOPliberys\\clsPerson.h",
               "RelativeDocumentMoniker": "..\\..\\c\u002B\u002B courses\\OOPliberys\\clsPerson.h",
@@ -505,13 +500,12 @@
               "RelativeToolTip": "..\\..\\c\u002B\u002B courses\\OOPliberys\\clsPerson.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-28T19:28:35.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T19:28:35.144Z"
             }
           ]
         },
         {
-          "DockedHeight": 32,
+          "DockedHeight": 31,
           "SelectedChildIndex": -1,
           "Children": [
             {

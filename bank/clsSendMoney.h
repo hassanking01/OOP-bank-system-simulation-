@@ -17,7 +17,7 @@ public:
 		_DrowHeader("send Money scren");
 
 		vector <clsClient> vtClients = clsClient::GetClientList();
-		string senderAcountNumber = clsInputValidate::readString("\t\t\t\t\t\tenter the sender Acount Number : ");
+		string senderAcountNumber = clsInputValidate::readString("\n\t\t\t\t\t\tenter the sender Acount Number : ");
 		clsClient sender = clsClient::find(senderAcountNumber);
 		while (!sender.isAccExist(senderAcountNumber))
 		{
@@ -25,20 +25,18 @@ public:
 			senderAcountNumber = clsInputValidate::readString("\t\t\t\t\t\tenter the sender Acount Number : ");
 		}
 		sender = clsClient::find(senderAcountNumber);
-		string resiverAccountNumber = clsInputValidate::readString("\t\t\t\t\t\tenter reciver Account Number : ");
-		string resiverFullName = clsInputValidate::readString("\t\t\t\t\t\tEnter reciver FullName : ");
-		clsClient reciver = clsClient::findTosendOrRequat(resiverAccountNumber, resiverFullName);
+		string resiverAccountNumber = clsInputValidate::readString("\n\t\t\t\t\t\tenter reciver Account Number : ");
+		clsClient reciver = clsClient::find(resiverAccountNumber);
 		while (!reciver.isAccExist(resiverAccountNumber))
 		{
 			cout << "\t\t\t\t\t\t Account not found! try again\n";
-			resiverAccountNumber = clsInputValidate::readString("\t\t\t\t\t\tenter reciver Account Number : ");
-			resiverFullName = clsInputValidate::readString("\n\t\t\t\t\t\tEnter reciver FullName : ");
+			resiverAccountNumber = clsInputValidate::readString("\n\t\t\t\t\t\tenter reciver Account Number : ");
 		}
-		reciver = clsClient::findTosendOrRequat(resiverAccountNumber, resiverFullName);
+		reciver = clsClient::find(resiverAccountNumber);
 		float Amount = clsInputValidate::readDouble("\n\t\t\t\t\t\tenter the Amount to send", "invalid Number! try again");
-		char sur = clsInputValidate::readChar("\t\t\t\t\t\tare you sure you want to do this transaction Y/N : ");
+		char sur = clsInputValidate::readChar("\n\t\t\t\t\t\tare you sure you want to do this transaction Y/N : ");
 		if(toupper(sur) == 'Y'){
-			sender.sendMony(reciver, Amount);
+			curentUser.transfir(sender, reciver, Amount);
 			sender.Save();
 			reciver.Save();
 			cout << "\t\t\t\t\t\tdone successfully. you Balance now is " << sender.Account_Balance << endl;

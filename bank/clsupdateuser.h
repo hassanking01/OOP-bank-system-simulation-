@@ -68,23 +68,59 @@ class clsupdateuser : protected clsScreen
 			}
 			else
 			{
-				string sections[7] = {
-			"View clients list",
-			"Add client",
-			"Client info",
-			"Delete client",
-			"Update client info",
-			"Transactions",
-			"Manage users"
+				string sections[8] = {
+				"",
+		
+		"Add client",
+		"View clients list",
+		"Client info",
+		"Delete client",
+		"Update client info",
+		"Manage users",
+		"Transactions",
+				};
+				string transactions[19] = {
+			"", "", "","", "", "","", "", "", "", "","", "", "", "", "Deposite", "Withdraw", "Totale_balance" , "Send_Money"
+				};
+				string managusers[17] = {
+			 "", "",  "", "", "", "", "", "", "",  "userslist", "addnewuser", "userInfo",
+			"Deleteuser", "updateuser", "loginregister"
 				};
 				for (int i = 0; i < 7; i++) {
-					cout << "give User access to " << sections[i] << " : ";
+					isyas = 'n';
+					cout << "give User access to " << sections[i + 1] << " : ";
 					cin >> isyas;
 					if (toupper(isyas) == 'Y') {
 						user.permisstion |= (1 << i);
+
+
 					}
+					if (i == 6 && toupper(isyas) == 'Y') {
+						for (int j = 13; j < 17; j++) {
+							cout << "give User access to " << transactions[j + 2] << " : ";
+							cin >> isyas;
+							if (toupper(isyas) == 'Y') {
+								user.permisstion |= (1 << j);
+
+
+							}
+						}
+					}
+					if (i == 5 && toupper(isyas) == 'Y') {
+						for (int j = 7; j < 13; j++) {
+							cout << "give User access to " << managusers[j + 2] << " : ";
+							cin >> isyas;
+							if (toupper(isyas) == 'Y') {
+								user.permisstion |= (1 << j);
+
+
+							}
+						}
+					}
+
 				}
 			}
+			break;
 		case clsupdateuser::password:
 			user.password = clsInputValidate::readString("\t\t\t\t\t\t enter the updated password : ");
 
