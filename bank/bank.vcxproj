@@ -149,6 +149,7 @@
     <ClInclude Include="clsShowClientInfo.h" />
     <ClInclude Include="clsShowClientsList.h" />
     <ClInclude Include="clsShowMainMenu.h" />
+    <ClInclude Include="clsShowtransactionhistory.h" />
     <ClInclude Include="clsShowUserInfo.h" />
     <ClInclude Include="clsString.h" />
     <ClInclude Include="clsTotaleBalance.h" />

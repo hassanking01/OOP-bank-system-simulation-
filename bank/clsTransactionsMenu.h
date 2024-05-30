@@ -7,15 +7,17 @@
 #include "clsWithdraw.h"
 #include "clsTotaleBalance.h"
 #include "clsSendMoney.h"
+#include "clsShowtransactionhistory.h"
 class clsTransactionsMenu : protected clsScreen
 {
 	enum enSection
 	{
-		Deposite =1,
+		Deposite = 1,
 		Withdraw = 2,
 		Totale_balance = 3,
 		Send_Money = 4,
-		main_menu = 5
+		transactionhistory = 5,
+		main_menu = 6
 	};
 	static void _GoBackToTransactions() {
 		
@@ -48,6 +50,10 @@ class clsTransactionsMenu : protected clsScreen
 
 	}
 
+	static void _transactionhistory() {
+		clsShowtransactionhistory::gettransfirhistory();
+	}
+
 
 	
 
@@ -72,6 +78,12 @@ class clsTransactionsMenu : protected clsScreen
 			_SendMoney();
 			_GoBackToTransactions();
 			break;
+		case clsTransactionsMenu::transactionhistory:
+			_transactionhistory();
+
+			_GoBackToTransactions();
+			break;
+
 		case clsTransactionsMenu::main_menu:
 
 
@@ -95,7 +107,9 @@ public:
 		cout << "\t\t\t\t\t\t|------------------------------------------------|" << endl;
 		cout << "\t\t\t\t\t\t|                 Send Money     [4]             |" << endl;
 		cout << "\t\t\t\t\t\t|------------------------------------------------|" << endl;
-		cout << "\t\t\t\t\t\t|                 Main Menu      [5]             |" << endl;
+		cout << "\t\t\t\t\t\t|            transaction history [5]             |" << endl;
+		cout << "\t\t\t\t\t\t|------------------------------------------------|" << endl;
+		cout << "\t\t\t\t\t\t|                 Main Menu      [6]             |" << endl;
 		cout << "\t\t\t\t\t\t|------------------------------------------------|" << endl;
 		list = clsInputValidate::readIntBetween(1, 6, "\t\t\t\t\t\t enter number from the list : ", "Invalid number");
 		_ReadUserInput((enSection)list);

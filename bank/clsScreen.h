@@ -1,8 +1,12 @@
 #pragma once
-#include <iostream>
 #include "glogal.h"
-#include "clsDate.h"
+#include <iostream>
+
 using namespace std;
+
+
+
+
 
 class clsScreen
 {

@@ -42,5 +42,8 @@ public:
 			cout << "\t\t\t\t\t\tdone successfully. you Balance now is " << sender.Account_Balance << endl;
 		}
 	}
+	void sendmony(int a) {
+		cout << a;
+	}
 };
 

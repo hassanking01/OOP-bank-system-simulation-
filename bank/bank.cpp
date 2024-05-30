@@ -2,6 +2,7 @@
 #include "glogal.h"
 #include <iostream>
 #include "clsLoginRegisterScreen.h"
+
 int main()
 {
 	while (logfield)
@@ -9,6 +10,7 @@ int main()
 		clsLogin::Login();
 	}
 	
+
 } 
 
 

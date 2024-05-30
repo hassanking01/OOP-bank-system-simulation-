@@ -1,17 +1,10 @@
 #pragma once
 #include "clsUser.h"
+#include "vector"
+
+
 clsUser curentUser = clsUser::find("", "");
-string sections[7] = {
-	   "View clients list",
-	   "Add client",
-	   "Client info",
-	   "Delete client",
-	   "Update client info",
-	   "Transactions",
-	   "Manage users"
-};
-bool logfield = true;
-clsDate Date;
+
 string sectons[18] = {
 
 	"addClient",
@@ -32,3 +25,6 @@ string sectons[18] = {
 	"Totale_balance",
 	"Send_Money"
 };
+bool logfield = true;
+clsDate Date;
+

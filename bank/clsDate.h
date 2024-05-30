@@ -150,8 +150,16 @@ public:
 		time_t t = time(0);
 		tm* now = localtime(&t);
 
-		
-		return  to_string(Date.Day) + "/" + to_string(Date.Month) + "/" + to_string(Date.Year) + " - " + to_string(now->tm_hour) + ":" + to_string(now->tm_min) ;
+		int imin = now->tm_min;
+		string smin;
+		if (imin < 10) {
+			smin = "0" + to_string(imin);
+		}
+		else
+		{
+			smin = to_string(imin);
+		}
+		return  to_string(Date.Day) + "/" + to_string(Date.Month) + "/" + to_string(Date.Year) + " - " + to_string(now->tm_hour) + ":" + smin;
 	}
 
 	string DateToString()
