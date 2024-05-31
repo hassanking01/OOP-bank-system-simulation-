@@ -123,7 +123,7 @@ class clsupdateuser : protected clsScreen
 			break;
 		case clsupdateuser::password:
 			user.password = clsInputValidate::readString("\t\t\t\t\t\t enter the updated password : ");
-
+			user.password = clsUtil::EncryptText(user.password, 10);
 			break;
 		default:
 			break;

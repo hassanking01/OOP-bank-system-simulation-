@@ -3,6 +3,7 @@
 #include "clsClient.h"
 #include "clsUser.h"
 #include "clsScreen.h"
+#include "clsUtil.h"
 class clsAddUser : protected clsScreen
 {
 	static clsUser readClient(clsUser& user) {
@@ -16,6 +17,7 @@ class clsAddUser : protected clsScreen
 		user.Email = clsInputValidate::readString("\t\t\t\t\t\tenter email              : ");
 		cout << endl;
 		user.password = clsInputValidate::readString("\t\t\t\t\t\tenter password            : ");
+		user.password = clsUtil::EncryptText(user.password, 10);
 		cout << endl;
 		char section;
 		char fullaccess = clsInputValidate::readChar("\t\t\t\t\t\tdoes the user have full access of the system Y/N : ");

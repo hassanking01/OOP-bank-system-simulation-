@@ -44,6 +44,13 @@ C:\Users\hassa\Desktop\1\clsManageUsers.h(10,10): warning C4067: unexpected toke
 C:\Users\hassa\Desktop\1\clsupdateuser.h(162,12): warning C4129: ' ': unrecognized character escape sequence
   (compiling source file 'bank.cpp')
   
+C:\Users\hassa\Desktop\1\clsUpdatecurrencyrate.h(19,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'bank.cpp')
+  
+C:\Users\hassa\Desktop\1\clscurrnceycalculator.h(47,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'bank.cpp')
+  
 C:\Users\hassa\Desktop\1\clsClient.h(325,1): warning C4715: 'clsClient::Save': not all control paths return a value
-C:\Users\hassa\Desktop\1\clsUser.h(341,1): warning C4715: 'clsUser::save': not all control paths return a value
+C:\Users\hassa\Desktop\1\clsUser.h(342,1): warning C4715: 'clsUser::save': not all control paths return a value
+C:\Users\hassa\Desktop\1\clscurrency.h(150,1): warning C4715: 'clscurrency::save': not all control paths return a value
   bank.vcxproj -> C:\Users\hassa\Desktop\1\x64\Debug\bank.exe

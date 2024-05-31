@@ -113,5 +113,26 @@
     <ClInclude Include="clsShowtransactionhistory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="clscurrency.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsShowcurrencyExtchangeMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clscurrencylist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsfindcurrency.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdatecurrencyrate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clscurrnceycalculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsgetallcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

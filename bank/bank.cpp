@@ -1,16 +1,16 @@
 #include "clsLogin.h"
 #include "glogal.h"
 #include <iostream>
-#include "clsLoginRegisterScreen.h"
-
+#include "clsgetallcode.h"
+#include "clsUpdatecurrencyrate.h"
 int main()
 {
-	while (logfield)
+	while (true)
 	{
 		clsLogin::Login();
 	}
 	
-
+	
 } 
 
 

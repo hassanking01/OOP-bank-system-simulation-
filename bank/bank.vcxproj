@@ -133,10 +133,15 @@
     <ClInclude Include="clsAddClient.h" />
     <ClInclude Include="clsAddUser.h" />
     <ClInclude Include="clsClient.h" />
+    <ClInclude Include="clscurrency.h" />
+    <ClInclude Include="clscurrencylist.h" />
+    <ClInclude Include="clscurrnceycalculator.h" />
     <ClInclude Include="clsDate.h" />
     <ClInclude Include="clsDeletclient.h" />
     <ClInclude Include="clsDeleteuser.h" />
     <ClInclude Include="clsDeposite.h" />
+    <ClInclude Include="clsfindcurrency.h" />
+    <ClInclude Include="clsgetallcode.h" />
     <ClInclude Include="clsInputValidate.h" />
     <ClInclude Include="clsLogin.h" />
     <ClInclude Include="clsLoginRegister.h" />
@@ -148,6 +153,7 @@
     <ClInclude Include="clsSendMoney.h" />
     <ClInclude Include="clsShowClientInfo.h" />
     <ClInclude Include="clsShowClientsList.h" />
+    <ClInclude Include="clsShowcurrencyExtchangeMenu.h" />
     <ClInclude Include="clsShowMainMenu.h" />
     <ClInclude Include="clsShowtransactionhistory.h" />
     <ClInclude Include="clsShowUserInfo.h" />
@@ -155,6 +161,7 @@
     <ClInclude Include="clsTotaleBalance.h" />
     <ClInclude Include="clsTransactionsMenu.h" />
     <ClInclude Include="clsUpdateclientinfo.h" />
+    <ClInclude Include="clsUpdatecurrencyrate.h" />
     <ClInclude Include="clsupdateuser.h" />
     <ClInclude Include="clsUser.h" />
     <ClInclude Include="clsUserList.h" />

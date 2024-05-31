@@ -6,6 +6,7 @@
 #include "clsDate.h"
 #include "clsPerson.h"
 #include "glogal.h"
+#include "clsUtil.h"
 struct transfirLog
 {
 	string _date = clsDate::DateToString(clsDate());
@@ -35,7 +36,7 @@ private:
 	enum enMode { UpdateMode = 1, Empty = 2, AddnewMode = 3 };
 	static clsUser _converuserlinetoobject(string line) {
 		vector <string> record = clsString::Split(line, "#//#");
-		clsUser user(enMode::UpdateMode , stoi(record[0]), record[1], record[2], record[3], record[4], record[5], record[6]);
+		clsUser user(enMode::UpdateMode , stoi(record[0]), record[1], clsUtil::DecryptText(record[2] , 10), record[3], record[4], record[5], record[6]);
 		return user;
 	}
 	int _Premisstion;

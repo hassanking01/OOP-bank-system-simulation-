@@ -14,6 +14,7 @@
 #include "clsLogout.h"
 #include "glogal.h"
 #include "clsLoginRegister.h"
+#include "clsShowcurrencyExtchangeMenu.h"
 using namespace std;
 class clsShowMainMenu : public clsScreen 
 {
@@ -27,7 +28,8 @@ private:
 		updateClientInfo = 5,
 		transactionsMenu = 6,
 		manageUsersMenu = 7,
-		logout = 8,
+		currencyExtchabge = 8,
+		logout = 9
 
 	        
 	
@@ -93,6 +95,9 @@ private:
 		system("pause>0");
 		ShowMenuScreen();
 	}
+	static void _currencyExtchange() {
+		clsShowcurrencyExtchangeMenu::ShowcurrencyMenu();
+	}
 
 	static void _Logout() {
 		/*cout << "Logout will be here soon...";*/
@@ -131,6 +136,9 @@ private:
 			_ManageUsersMenu();
 			_GoBackToMainMenue();
 			break;
+		case clsShowMainMenu::currencyExtchabge:
+			_currencyExtchange();
+			_GoBackToMainMenue();
 		case clsShowMainMenu::logout:
 			_Logout();
 			
@@ -159,7 +167,9 @@ public:
 		cout << "\t\t\t\t\t\t|------------------------------------------------|" << endl;
 		cout << "\t\t\t\t\t\t|                 Manage users   [7]             |" << endl;
 		cout << "\t\t\t\t\t\t|------------------------------------------------|" << endl;
-		cout << "\t\t\t\t\t\t|                    Log out     [8]             |" << endl;
+		cout << "\t\t\t\t\t\t|              currency extchage [8]             |" << endl;
+		cout << "\t\t\t\t\t\t|------------------------------------------------|" << endl;
+		cout << "\t\t\t\t\t\t|                    Log out     [9]             |" << endl;
 		cout << "\t\t\t\t\t\t|------------------------------------------------|" << endl;
 	int listNumber = clsInputValidate::readIntBetween(1, 8, "\n\n\n\t\t\t\t\t\t enter a number in the list : ", "\t\t\t\t\t\tInvalid number! pleas try again");
 	   _ReadUserInputList((enSection)listNumber);
